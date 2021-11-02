@@ -1,0 +1,33 @@
+<html>
+    <table>
+        <form name="client" action="inscriptionc.php" method="POST">
+            <tr>
+                <td> Nom: </td>
+                <td> <input type="text" name="nom" > </td>
+                <td>  Prenom : </td>
+                <td> <input type="text" name="prenom" > </td>
+                </tr>
+                <tr>
+                    <td>
+                        <td> <label ><input type="radio" name="sexe"  value="1">Homme </td>
+                         <td>  <label ><input type="radio" name="sexe"  value="0">Femme </td>
+                            <td> <label ><input type="radio" name="sexe"  value="3">non spécifié </td>
+                </tr>
+                    <tr>
+                        <th>  Adresse : </th>
+                    </tr>
+                    <tr> <td> n° de rue  : </td> <td> <input type="text" name="novoie"> </td> 
+                        <td> nom de la voie </td> <td> <input type="text" name="namevoie"> </td>  </tr>
+                    <tr> <td> Code Postal </td> <td> <input type="texte" name="CP"> </td><td> Ville : </td>  <td> <input type="text" name="ville" > </td></tr> 
+                    <tr> <td> Numéro de teléphone : </td> <td> <input type="texte" name="tel"> </td> <td> Adresse mail </td><td> <input type="text" name="mail" ></td></tr>
+                    <th> </th>
+                    <tr> <td> Biographie </td> <td> <textarea name="bio" > </textarea></td></tr>
+                    <tr> <td> Prestation proposée </td> <td colspan="2"> <textarea name="prest" > </textarea></td></tr>
+                    <tr> <td> Lieu Prestation </td> <td> <input type="text" name="lieu"> </td></tr>
+                    <tr> <td> Image </td> <td> importer(facultatif) </td></tr>
+
+                    <tr> </td><td> Mot de passe </td> <td> <input type="password" name="mdp1" > </td> <td> confirmer mot de passe </td> <td> <input type="password" name="mdp2" > </td>  </tr>
+                    <tr> <td></td><td><input type="reset" name="annuler" value="Annuler"> </td> <td> <input type="submit" name="valider" value="S'inscrire"> </td> </tr> 
+        </form>
+    </table>
+</html>

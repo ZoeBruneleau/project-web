@@ -1,0 +1,21 @@
+a {
+   text-decoration : none;
+   border: 3px groove gray;
+   
+  margin : 10px;
+  padding : 5px;
+  
+
+}
+
+h1 {
+  text-align : center;
+  margin : 50px;
+  font-size : 70px;
+
+}
+html {
+  background-image: url("images.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
