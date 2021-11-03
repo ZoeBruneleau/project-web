@@ -1,6 +1,14 @@
 <html>
-    <table>
-        <form name="client" action="inscriptionc.php" method="POST">
+    <head>
+        <meta charset="UTF8">
+    <link rel="stylesheet" href="formstyle.css">
+    <script src="jsform.js"> </script>
+    </head>
+    
+
+     <h1> Inscription </h1><body>
+    <table >
+        <form name="coach" action="inscriptionc.php" method="POST">
             <tr>
                 <td> Nom: </td>
                 <td> <input type="text" name="nom" > </td>
@@ -27,7 +35,8 @@
                     <tr> <td> Image </td> <td> importer(facultatif) </td></tr>
 
                     <tr> </td><td> Mot de passe </td> <td> <input type="password" name="mdp1" > </td> <td> confirmer mot de passe </td> <td> <input type="password" name="mdp2" > </td>  </tr>
-                    <tr> <td></td><td><input type="reset" name="annuler" value="Annuler"> </td> <td> <input type="submit" name="valider" value="S'inscrire"> </td> </tr> 
+                    <tr> <td></td><td><input type="reset" name="annuler" value="Annuler"> </td> <td> <input type="submit" name="valider" value="S'inscrire" onclick="val()"> </td> </tr> 
         </form>
     </table>
+    </body>
 </html>
