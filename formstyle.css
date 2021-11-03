@@ -1,0 +1,15 @@
+table {
+ border-spacing:  15px;
+ border: medium groove grey;
+width: 50%;
+background-color: rgba(245, 235, 233, 0.76);
+ margin : auto;
+ width: auto;
+}
+
+
+textarea{
+    width: 260px;
+    height: 80px;;
+}
+
