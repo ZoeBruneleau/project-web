@@ -1,9 +1,11 @@
 a {
    text-decoration : none;
    border: 3px groove gray;
-   
+   border-radius: 5px;
   margin : 10px;
   padding : 5px;
+  color : white;
+  background-color:gray;
   
 
 }
@@ -15,7 +17,10 @@ h1 {
 
 }
 html {
-  background-image: url("images.jpg") ;
-  background-repeat: no-repeat;
-  background-size: 500px;
+   color : black;
+   background-image : url("grp.jpg");
+   background-position : top 175px left 0px ;
+   background-size: 1300px;
+   background-repeat: no-repeat;
+   
 }
